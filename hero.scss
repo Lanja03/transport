@@ -1,0 +1,153 @@
+
+.hero{
+    width: 100%;
+    height: 300px;
+    background-image: url(./assets/image/hero-car.png);
+    background-size: cover;
+}
+
+.hero-container{
+    display: grid;
+    grid-template-columns: repeat(2 ,1fr);
+    justify-content: center;
+    align-items: center;
+}
+ 
+.car{
+    width: 100%;
+    height: 300px;
+    background-color: #ffffff2f;
+    
+    h1{
+        font-size: 32px;
+        font-family: "Poppins",sans-serif;
+        font-weight: 500;
+        color: #ffff;
+        text-align: right;
+        margin-top: 110px;
+    }
+}
+
+.travel{
+    background-color: #0000006c;
+    width: 100%;
+    height: 300px;
+    h1{
+       -webkit-text-stroke-width:  1px;
+       -webkit-text-stroke-color: #ffff;
+       font-size: 32px;
+       font-family: "Poppins",sans-serif;
+       font-weight: 400;
+       color: #ffffff00;
+       padding-top: 130px;
+    }
+}
+
+.programme{
+    background-color: #ffff;
+    max-width: 100%;
+    height: 80px;
+    border-radius: 10px;
+    padding-left: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 20px;
+    margin-top: 42px;
+}
+.loop{
+display: none;
+}
+p{
+   font-size: 12px;
+   font-family: "Poppins",sans-serif; 
+   font-weight: 500;
+}
+
+span{
+    font-size: 12px;
+    font-weight: 400;
+    font-family: "Poppins",sans-serif;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+@media screen and (min-width:1024px) {
+    
+.hero{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./assets/image/hero-car.png);
+    background-size: cover;
+}
+
+.hero-container{
+    display: grid;
+    grid-template-columns: repeat(2 ,1fr);
+    justify-content: center;
+    align-items: center;
+}
+ 
+.car{
+    width: 100%;
+    height: 100Vh;
+    background-color: #ffffff2f;
+    h1{
+        font-size: 128px;
+        font-family: "Poppins",sans-serif;
+        font-weight: 500;
+        color: #ffff;
+        text-align: right;
+        padding-top: 256px;
+        margin-top: 0;
+    }
+}
+
+.travel{
+    background-color: #0000006c;
+    width: 100%;
+    height: 100Vh;
+    h1{
+       -webkit-text-stroke-width:  2px;
+       -webkit-text-stroke-color: #ffff;
+       font-size: 128px;
+       font-family: "Poppins",sans-serif;
+       font-weight: 400;
+       color: #ffffff00;
+       padding-top: 361px;
+    }
+}
+
+.programme{
+    display: grid;
+    grid-template-columns: repeat(3 ,1fr);
+    align-items: center;
+    background-color: #ffff;
+    max-width: 411px;
+    height: 71px;
+    border-radius: 50px;
+    padding-left: 20px;
+    padding-top: 0;
+    margin-left: 59px;
+    margin-top: 195px;
+}
+
+.loop{
+    display: block;
+}
+
+p{
+   font-size: 18px;
+   font-family: "Poppins",sans-serif; 
+   font-weight: 500;
+}
+
+span{
+    font-size: 12px;
+    font-weight: 400;
+    font-family: "Poppins",sans-serif;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+}
