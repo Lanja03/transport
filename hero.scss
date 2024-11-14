@@ -99,6 +99,7 @@ span{
         color: #ffff;
         text-align: right;
         padding-top: 256px;
+        margin-top: 0;
     }
 }
 
@@ -118,14 +119,15 @@ span{
 }
 
 .programme{
-    display: grid;
-    grid-template-columns: repeat(3 ,1fr);
+    display: flex;
+    justify-content: space-between;
     align-items: center;
     background-color: #ffff;
     max-width: 411px;
     height: 71px;
     border-radius: 50px;
     padding-left: 20px;
+    padding-right: 20px;
     padding-top: 0;
     margin-left: 59px;
     margin-top: 195px;
