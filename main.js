@@ -1,4 +1,4 @@
-import './style.css'
+/*import './style.css'
 import javascriptLogo from './javascript.svg'
 import viteLogo from '/vite.svg'
 import { setupCounter } from './counter.js'
@@ -21,4 +21,20 @@ document.querySelector('#app').innerHTML = `
   </div>
 `
 
-setupCounter(document.querySelector('#counter'))
+setupCounter(document.querySelector('#counter'))*/
+import Splide from "@splidejs/splide";
+
+var splide = new Splide( '.splide', {
+  type   : 'loop',
+  perPage:3,
+  perMove: 1,
+  breakpoints:{
+    640:{
+      perPage: 1,
+    }
+  }
+} );
+
+splide.mount();
+
+

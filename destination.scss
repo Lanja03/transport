@@ -1,13 +1,17 @@
 .destination{
     width: 100%;
-    height: 1100px;
+    height: 450px;
     margin-top: 40px;
 }
 
 .destination-container{
-    padding-left: 10px;
+    padding-left: 5px;
     padding-right: 10px;
     padding-top: 20px;
+    ul{
+        display: flex;
+        gap: 8px;
+    }
 }
 
 .card-destination{
@@ -51,13 +55,15 @@
     }
     
     .destination-container{
-        display: grid;
-        grid-template-columns: repeat(3 ,1fr);
-        gap: 20px;
         padding-left: 60px;
         padding-right: 60px;
         padding-top: 40px;
+        ul{
+            display: flex;
+            gap: 20px;
+        }
     }
+
     
     .card-destination{
         width: 100%;
