@@ -37,4 +37,14 @@ var splide = new Splide( '.splide', {
 
 splide.mount();
 
+const menuSvg=document.querySelector(".svg-menu");
+const navLinks=document.querySelector(".nav-links")
+
+console.log(navLinks);
+console.log(menuSvg);
+
+menuSvg.addEventListener("click",()=>{
+  navLinks.classList.toggle('mobile-menu')
+})
+
 
